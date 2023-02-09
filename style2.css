@@ -1,0 +1,187 @@
+.pop {    width: 100px;
+    height: 100px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    margin: 30px auto;
+    color:  rgb(255, 77, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 0px 0 0 rgb(255, 77, 0),
+    -5px 0px 0 0 blue;
+}
+
+/*===================================================*/
+
+.parent {
+    width: 600px;
+    height: 300px;
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    
+}
+
+.parent div {
+      width: calc(88%/3);
+      background-color: rgb(255, 51, 0);
+     padding: 5px;
+     color: white;
+     display: flex;
+     justify-content: center;
+    }
+
+    /*====================================================================*/
+
+    .parent2 {
+        width: 600px;
+        height: 300px;
+        background-color: gainsboro;
+        padding: 20px;
+        margin: 30px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .parent2 div {
+        width: calc(88%/3);
+        background-color: gray;
+        padding: 4px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*=====================================================================*/
+
+    .parent3 {
+        width: 600px;
+        height: 300px;
+        background-color: gainsboro;
+        padding: 20px;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent3 div {
+        width: 300px;
+        height: 100px;
+        background-color: rgb(88, 194, 136);
+        padding: 4px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parent3 .one3 , .parent3 .three3 {
+        width: 30px;
+        align-self: flex-end;       
+    }
+
+
+    /*=======================================================*/
+
+    .parent4 {
+        width: 600px;
+    height: 300px;
+    padding: 10px;
+    background-color: gainsboro;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .parent4 div {
+        width: calc(79%/4);
+        height: 50%;
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+.parent4 .four4 , .parent4 .two4 {
+    align-self: flex-end;
+}
+
+
+/*==================================================================*/
+
+.page {
+    width: 800px;
+    height: 600px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: gainsboro;
+    color: white;
+}
+
+.header {
+    
+    display: flex;
+    justify-content: space-between;
+} 
+
+.logo ,.links {
+    background-color: gray;
+    padding: 5px 15px;
+    margin: 5px;
+    display: flex;
+    align-self: flex-start;
+    
+}
+
+.links {
+    width: 675px;
+    list-style-type: none;
+   
+    justify-content: flex-end;
+    word-spacing: 4px;
+    
+}
+
+.links li {
+    padding: 0px 5px;
+}
+
+.main-area {
+    padding: 5px;
+    margin:  10px 0px;
+    background-color: transparent;
+    height: 500px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.main-area .content , .main-area .sidebar {
+   
+    background-color: grey;
+    padding: 5px;
+    flex-grow: 1;
+    
+}
+
+.main-area .content {
+    flex-grow: 3; 
+    margin-right: 20px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 10px;
+    margin: 5px;
+}
+
+
